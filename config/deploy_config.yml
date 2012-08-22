@@ -1,0 +1,9 @@
+development:
+  server: 'db79'
+  deploy_to: '/projects/cap/gitlab-dev'
+  current_dir: 'current'
+  user: 'gitlab'
+  #password: 'password'
+  rails_env: 'development'
+  repo: 'git://github.com/catz/gitlabhq.git'
+  ruby_path: '/usr/local/ruby/1.9.2/bin'
